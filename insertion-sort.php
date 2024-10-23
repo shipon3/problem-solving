@@ -53,7 +53,6 @@ function insertionSortForeach(array $array) : array
                 $array[$index +1] = $inItem;
                 $j = $index;
             }
-            
         }
         $array[$j] = $item;
     }
